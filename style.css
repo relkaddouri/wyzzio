@@ -137,3 +137,109 @@
 .hero .container .download .appStore {
     margin-top: -10px;
 }
+
+
+.bg-blue {
+    background-color: #F3F7FC;
+    padding: 94px 0;
+    margin-top: 90px;
+}
+
+.bg-blue .card{
+    margin: 20px 0;
+    border-radius: 21px;
+    border-bottom: 10px solid #E4E8ED;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.bg-blue .card .card-img-top{
+    padding: 10px;
+    border-radius: 21px;
+}
+
+.bg-blue .card .card-title{
+    font-size: 25px;
+}
+
+.bg-blue .card .card-text{
+    font-size: 21px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.sectionOne  {
+    padding: 94px 0;
+    color: white;
+}
+
+.sectionOne  .card {
+    margin: 30px 0;
+    border-radius: 21px;
+    background-color: #1A1D21;
+    color: white;
+    height: 447.48px;
+}
+
+.sectionOne  .card-img-top{
+    padding: 20px;
+    border-radius: 21px;
+}
+
+.sectionOne  .card .card-title{
+    font-size: 29px;
+    font-weight: '600';
+}
+
+
+.sectionTow  {
+    padding: 40px 0;
+    color: white;
+}
+
+.sectionTow .card {
+    margin: 30px 0;
+    border-radius: 21px;
+    background-color: #1A1D21;
+    color: white;
+}
+
+.sectionTow .card-img-top-custom{
+    padding-left: 14px;
+    padding-top: 14px;
+}
+
+.sectionTow .card .card-title{
+    font-size: 20px;
+    font-weight: '600';
+}
+
+.sectionTow .card .card-text{
+    font-size: 15px;
+    color: #868789;
+}
+
+
+.blog {
+    padding: 94px 0;
+}
+
+.blog .sectionTitle {
+    display: flex;
+    align-items: center;
+}
+
+.blog .card {
+    margin: 30px 0;
+    border-radius: 21px;
+}
+.blog .card-img-top{
+    padding: 20px;
+    border-radius: 21px;
+}
+
+.blog .card .card-title{
+    font-size: 27px;
+    font-weight: '600';
+}
