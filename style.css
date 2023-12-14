@@ -30,6 +30,11 @@
     background-color: #ffffff !important;
 }
 
+.active-menu-item {
+    color:#0A58CA;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar {
         width: 80%;
@@ -173,18 +178,22 @@
     padding: 94px 0;
     color: white;
 }
+.sectionOne .col-custom {
+    margin-bottom: 20px;
+}
 
 .sectionOne  .card {
     margin: 30px 0;
     border-radius: 21px;
     background-color: #1A1D21;
     color: white;
-    height: 447.48px;
+    height: 100%;
 }
 
 .sectionOne  .card-img-top{
     padding: 20px;
     border-radius: 21px;
+    margin-top: -65px;
 }
 
 .sectionOne  .card .card-title{
@@ -197,17 +206,25 @@
     padding: 40px 0;
     color: white;
 }
+.sectionTow .col-custom {
+    margin-bottom: 20px;
+}
 
 .sectionTow .card {
     margin: 30px 0;
     border-radius: 21px;
     background-color: #1A1D21;
     color: white;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
 }
 
 .sectionTow .card-img-top-custom{
     padding-left: 14px;
     padding-top: 14px;
+    width: 15%;
 }
 
 .sectionTow .card .card-title{
@@ -312,3 +329,34 @@
 
     }
   }
+
+
+  /** BLOG PAGE CSS */
+  .header-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pagBlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /** END BLOG PAGE CSS */
+
+
+
+/** POST PAGE CSS */
+
+
+.contentPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/** END POST PAGE CSS */
