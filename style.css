@@ -39,6 +39,9 @@
     .navbar {
         width: 80%;
     }
+    .container {
+        padding: 0 15px;
+    }
   }
 /** STRAT HEADER CSS 
 .header {
@@ -150,6 +153,10 @@
     margin-top: 90px;
 }
 
+.bg-blue .col-custom {
+    margin-bottom: 20px;
+}
+
 .bg-blue .card{
     margin: 20px 0;
     border-radius: 21px;
@@ -157,6 +164,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
+    height: 100%;
 }
 
 .bg-blue .card .card-img-top{
@@ -188,6 +196,11 @@
     background-color: #1A1D21;
     color: white;
     height: 100%;
+}
+
+.sectionOne .card-img-top-custom{
+    padding-left: 14px;
+    padding-top: 14px;
 }
 
 .sectionOne  .card-img-top{
@@ -246,10 +259,15 @@
     display: flex;
     align-items: center;
 }
+.blog .col-custom {
+    margin-bottom: 20px;
+}
 
 .blog .card {
     margin: 30px 0;
     border-radius: 21px;
+    border-bottom: 10px solid #E4E8ED;
+    height: 100%;
 }
 .blog .card-img-top{
     padding: 20px;
@@ -343,6 +361,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
   }
 
   /** END BLOG PAGE CSS */
