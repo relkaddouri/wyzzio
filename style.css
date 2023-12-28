@@ -39,9 +39,13 @@
     .navbar {
         width: 80%;
     }
-    .container {
-        padding: 0 15px;
+    navbar .d-flex {
+        display: block !important;
     }
+    .container {
+        padding: 0 20px;
+    }
+
   }
 /** STRAT HEADER CSS 
 .header {
